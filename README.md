@@ -1,5 +1,5 @@
 # codewars-solutions-python
-These are my solutions for various codewars challenges aka 'kyu'. The lower number of the kyu, the more difficult.
+These are my solutions for various codewars challenges aka 'kata'. 'Kyu' referrs to difficulty. The lower kyu number, the more difficult.
 
 If you want to try cw yourself, you can use my referral link. www.codewars.com/r/rDj0mQ.
 
