@@ -13,5 +13,13 @@ findNextSquare(625) --> returns 676
 findNextSquare(114) --> returns -1 since 114 is not a perfect"""
 
 
+import math
 
 
+def find_next_square(sq):
+    if math.sqrt(sq) % 1 == 0:
+        root_1 = math.sqrt(sq)
+        root_next = root_1 + 1
+        return root_next * root_next
+    else:
+        return -1
