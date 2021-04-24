@@ -9,5 +9,15 @@ Examples
 "a234"   -->  false"""
 
 
+import re
 
+
+def validate_pin(pin):
+    if len(pin) == 4 or len(pin) == 6:
+        if re.search('[^0-9]', pin) is None:
+            return True
+        else:
+            return False
+    else:
+        return False
 
